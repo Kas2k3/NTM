@@ -17,6 +17,10 @@
       }
     </script>
   </ul>
+  <audio id="background-audio" autoplay loop>
+    <source src="./assets/y2mate.com - Lyrics Christmas is Coming demo  Demo của Đức  Nhạc hot TikTok 2024.mp3"
+      type="audio/mpeg">
+  </audio>
   <br><br><br>
   <h1>Chúc bé iu "Cít mớt" vui vẻ ne Chúc bé luôn tuỵt zời như hiện tại và ngập tràn hạnh phúc be ná 🥰</h1>
   <br>
@@ -68,6 +72,12 @@
     <div class="ribbon"></div>
     <div class="gift2"></div>
     <div class="ribbon2"></div>
+    <div class="gift gift3"></div>
+    <div class="ribbon ribbon3"></div>
+    <div class="gift gift4"></div>
+    <div class="ribbon ribbon4"></div>
+    <div class="gift gift5"></div>
+    <div class="ribbon ribbon5"></div>
     <div class="shadow"></div>
   </div>
   <div class="snowflakes">
@@ -77,6 +87,16 @@
       }
     </script>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const audio = document.getElementById("background-audio");
+      if (audio.paused) {
+        document.body.addEventListener("click", function () {
+          audio.play();
+        }, { once: true });
+      }
+    });
+  </script>
 </body>
 
 </html>

@@ -433,7 +433,7 @@ body {
   position: absolute;
   width: 60px;
   height: 50px;
-  background-color: #ffc857;
+  background-color: #28ea52;
   top: 365px;
   left: 30px;
   box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.07);
@@ -445,7 +445,7 @@ body {
   width: 70px;
   height: 20px;
   left: -5px;
-  background-color: #ffc857;
+  background-color: #1fc808;
   box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.07);
 }
 
@@ -496,7 +496,7 @@ body {
   position: absolute;
   width: 60px;
   height: 15px;
-  background-color: #08bdbd;
+  background-color: #078c8c;
   left: -5px;
   box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.07);
 }
@@ -530,6 +530,162 @@ body {
   border-radius: 50%;
   transform: skew(-15deg, -20deg);
   left: 15px;
+  top: -8px;
+}
+
+.gift3 {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  background-color: #ff6f61;
+  top: 400px;
+  left: 200px;
+  box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.gift3:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  background-color: #f41b08;
+  left: -5px;
+  box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gift3:after {
+  content: "";
+  background-color: #18f0f7;
+  width: 15px;
+  height: 60px;
+  position: absolute;
+  left: 27px;
+}
+
+.ribbon3 {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 3px solid #18f0f7;
+  border-radius: 50%;
+  transform: skew(15deg, 15deg);
+  top: 385px;
+  left: 205px;
+}
+
+.ribbon3:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 3px solid #18f0f7;
+  border-radius: 50%;
+  transform: skew(-15deg, -20deg);
+  left: 25px;
+  top: -8px;
+}
+
+.gift4 {
+  position: absolute;
+  width: 80px;
+  height: 46px;
+  background-color: #e77ed2;
+  top: 400px;
+  left: 90px;
+  box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.gift4:before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  background-color: #f118ac;
+  left: -5px;
+  box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gift4:after {
+  content: "";
+  background-color: #0c69eb;
+  width: 15px;
+  height: 46px;
+  position: absolute;
+  left: 30px;
+}
+
+.ribbon4 {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 3px solid #0c69eb;
+  border-radius: 50%;
+  transform: skew(15deg, 15deg);
+  top: 385px;
+  left: 100px;
+}
+
+.ribbon4:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 3px solid #0c69eb;
+  border-radius: 50%;
+  transform: skew(-15deg, -20deg);
+  left: 25px;
+  top: -8px;
+}
+
+.gift5 {
+  position: absolute;
+  width: 100px;
+  height: 46px;
+  background-color: #fbff08;
+  top: 430px;
+  left: 45px;
+  box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.gift5:before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 10px;
+  background-color: #cfd207;
+  left: -5px;
+  box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gift5:after {
+  content: "";
+  background-color: #9f0b87;
+  width: 15px;
+  height: 46px;
+  position: absolute;
+  left: 30px;
+}
+
+.ribbon5 {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 3px solid #9f0b87;
+  border-radius: 50%;
+  transform: skew(15deg, 15deg);
+  top: 415px;
+  left: 55px;
+}
+
+.ribbon5:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 3px solid #9f0b87;
+  border-radius: 50%;
+  transform: skew(-15deg, -20deg);
+  left: 25px;
   top: -8px;
 }
 
